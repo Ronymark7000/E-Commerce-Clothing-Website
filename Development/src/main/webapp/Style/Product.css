@@ -1,0 +1,110 @@
+@charset "ISO-8859-1";
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+.products {
+	margin-top: 60px;
+}
+
+.products h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+.product-card {
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	width: 300px;
+}
+
+.product-card img {
+	max-width: 100%;
+}
+
+.product-card h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.product-card p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.product-card button {
+	background-color: #FBB03B;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 10px 20px;
+	transition: all 0.3s ease;
+}
+
+.product-card button:hover {
+	background-color: #333;
+	color: #FBB03B;
+}
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+#search {
+  background-color: #fff;
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+
+
+<div class="product-card">
+				<img src="product1.jpg" alt="Product 1">
+				<h3>T-shirt 1 Rs.250</h3>
+				<p>It's a prefect T-shirt for your Men.</p>
+				<button>Add to Cart</button>
+			</div>

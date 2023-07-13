@@ -1,0 +1,162 @@
+@charset "ISO-8859-1";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FBB03B;
+}
+
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgb(88, 167, 223);
+}
+
+#hero {
+    background-color: #dc1212 ;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 60px;
+color: #ffffff;
+margin-bottom: 20px;
+}
+
+#hero p {
+font-size: 24px;
+color: #ffffff;
+margin-bottom: 40px;
+}
+
+.btn {
+display: inline-block;
+background-color: #FBB03B;
+color: #fff;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+transition: all 0.3s ease;
+}
+
+.btn:hover {
+background-color: #333;
+color: #FBB03B;
+}
+
+#products {
+margin-top: 60px;
+}
+
+#products h2 {
+font-size: 36px;
+margin-bottom: 40px;
+}
+
+.product {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 40px;
+}
+
+.product img {
+width: 100%;
+max-width: 300px;
+margin-bottom: 20px;
+}
+
+.product h3 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.product p {
+font-size: 16px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+
+footer p {
+font-size: 14px;
+}
+
+@media (max-width: 768px) {
+header {
+flex-direction: column;
+align-items: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+#hero {
+    height: 300px;
+}
+
+#hero h2 {
+    font-size: 36px;
+}
+
+#hero p {
+    font-size: 18px;
+}
+
+.product {
+    max-width: 300px;
+}
+}
